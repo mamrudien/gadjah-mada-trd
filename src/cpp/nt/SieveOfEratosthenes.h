@@ -9,9 +9,12 @@
  */
 #pragma once
 
+#include "template.h"
+
 const int MAX_PR = 5'000'000;
 bitset<MAX_PR> isprime;
-vi eratosthenesSieve(int lim) {
+
+vi SieveOfEratosthenes(int lim) {
 	isprime.set(); isprime[0] = isprime[1] = 0;
 	for (int i = 4; i < lim; i += 2) isprime[i] = 0;
 	for (int i = 3; i*i < lim; i += 2) if (isprime[i])
