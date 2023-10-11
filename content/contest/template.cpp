@@ -1,4 +1,8 @@
 #include <bits/stdc++.h>
+
+#pragma GCC optimize("Ofast")
+#pragma GCC target("sse4,avx2,abm,fma")
+
 using namespace std;
 
 #define rep(i, a, b) for(int i = a; i < (b); ++i)
