@@ -10,6 +10,7 @@
 			"extensions": [
 				"James-Yu.latex-workshop",
 				"ms-vscode.cpptools",
+				"eamodio.gitlens",
 				"GitHub.vscode-github-actions",
 				"GitHub.copilot"
 			]
