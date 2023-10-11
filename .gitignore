@@ -1,7 +1,13 @@
-/build/
 *.aux
 *.log
 *.gch
-a.out
-header.tmp
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+*.toc
+*.out
+*.bbl
+*.ptc
+*.tmp
+main.pdf
 .vscode
