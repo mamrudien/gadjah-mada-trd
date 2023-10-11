@@ -13,6 +13,8 @@
  */
 #pragma once
 
+#include "template.h"
+
 template<class T>
 struct RMQ {
 	vector<vector<T>> jmp;

@@ -11,6 +11,8 @@
  */
 #pragma once
 
+#include "template.h"
+
 struct RollbackUF {
 	vi e; vector<pii> st;
 	RollbackUF(int n) : e(n, -1) {}

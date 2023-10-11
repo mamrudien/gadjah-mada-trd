@@ -12,6 +12,8 @@
  */
 #pragma once
 
+#include "template.h"
+
 template<class T, int N> struct Matrix {
 	typedef Matrix M;
 	array<array<T, N>, N> d{};

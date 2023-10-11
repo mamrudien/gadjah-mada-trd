@@ -11,6 +11,8 @@
 #pragma once
 
 #include <bits/extc++.h> /** keep-include */
+#include "template.h"
+
 using namespace __gnu_pbds;
 
 template<class T>

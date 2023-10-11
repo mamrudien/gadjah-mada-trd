@@ -10,6 +10,8 @@
  */
 #pragma once
 
+#include "template.h"
+
 struct FT {
 	vector<ll> s;
 	FT(int n) : s(n) {}

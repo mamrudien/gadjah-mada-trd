@@ -8,6 +8,8 @@
  */
 #pragma once
 
+#include "template.h"
+
 struct UF {
 	vi e;
 	UF(int n) : e(n, -1) {}

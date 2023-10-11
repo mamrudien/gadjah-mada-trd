@@ -12,6 +12,8 @@
  */
 #pragma once
 
+#include "template.h"
+
 template<class T>
 struct SubMatrix {
 	vector<vector<T>> p;
