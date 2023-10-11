@@ -9,7 +9,7 @@
  */
 #pragma once
 
-struct Tree {
+typedef struct segment_tree {
 	typedef int T;
 	static constexpr T unit = INT_MIN;
 	T f(T a, T b) { return max(a, b); } // (any associative fn)
@@ -27,4 +27,4 @@ struct Tree {
 		}
 		return f(ra, rb);
 	}
-};
+} segtree_t;
