@@ -9,7 +9,7 @@
 		"vscode": {
 			"extensions": [
 				"James-Yu.latex-workshop",
-				"ms-vscode.cpptools",
+				"ms-vscode.cpptools-extension-pack",
 				"eamodio.gitlens",
 				"GitHub.vscode-github-actions",
 				"GitHub.copilot"
