@@ -2,7 +2,7 @@
 	"image": "mcr.microsoft.com/devcontainers/base:ubuntu-22.04",
 	"features": {
      		"ghcr.io/rocker-org/devcontainer-features/apt-packages:1": {
-            		"packages": "texlive texlive-latex-extra build-essential"
+            		"packages": "texlive-full build-essential"
         	}
     	},
 	"customizations": {
@@ -10,7 +10,6 @@
 			"extensions": [
 				"James-Yu.latex-workshop",
 				"ms-vscode.cpptools",
-				"ms-azuretools.vscode-docker",
 				"GitHub.vscode-github-actions",
 				"GitHub.copilot"
 			]
