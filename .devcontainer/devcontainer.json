@@ -3,4 +3,18 @@
 		"context": "..",
 		"dockerfile": "Dockerfile"
 	}
+	"features": {
+     		"ghcr.io/rocker-org/devcontainer-features/apt-packages:1": {
+            		"packages": "build-essential"
+        	}
+    	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"James-Yu.latex-workshop",
+				"ms-vscode.cpptools",
+				"GitHub.vscode-github-actions",
+				"GitHub.copilot"],
+		}
+	}
 }
