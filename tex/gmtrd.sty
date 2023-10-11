@@ -272,6 +272,21 @@
 	\immediate\input{./kactl.tmp}
 }
 
+\newcommand{\code}[2][]{
+	\leftcaption{}\rightcaption{}
+	\setboolean{hasdescription}{false}
+	\setboolean{hasusage}{false}
+	\setboolean{hastime}{false}
+	\setboolean{hasmemory}{false}
+	\setboolean{hasleftcaption}{false}
+	\myneedspace{3\baselineskip}
+	\penalty-100
+	{\large #2}
+	\immediate\write18{rm -f ./code.tmp} % Don't include old kactl.tmp on failure.
+	\immediate\write18{./preprocessor.py -i "../src/#2" -o ./code.tmp #1}
+	\immediate\input{./code.tmp}
+}
+
 \newcommand{\import}[1]{
 	\input{"\@kactldir/#1"}
 }
