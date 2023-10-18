@@ -2,7 +2,7 @@
 	"image": "mcr.microsoft.com/devcontainers/base:ubuntu-22.04",
 	"features": {
      		"ghcr.io/rocker-org/devcontainer-features/apt-packages:1": {
-            		"packages": "texlive-full build-essential"
+            		"packages": "texlive-full clang clangd clang-tools clang-format clang-tidy openjdk-11-jdk pypy3"
         	}
     	},
 	"customizations": {
@@ -10,6 +10,7 @@
 			"extensions": [
 				"James-Yu.latex-workshop",
 				"ms-vscode.cpptools-extension-pack",
+				"vscjava.vscode-java-pack",
 				"ms-python.python",
 				"eamodio.gitlens",
 				"GitHub.vscode-github-actions",
