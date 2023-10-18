@@ -6,7 +6,10 @@
  * Description:
  * Status: tested
  */
+
 #pragma once
+
+#include "template.h"
 
 const ll mod = 1000000007; // faster if const
 

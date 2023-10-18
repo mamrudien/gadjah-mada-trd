@@ -8,7 +8,10 @@
  * Time: O(n^3)
  * Status: Slightly tested
  */
+
 #pragma once
+
+#include "template.h"
 
 int matInv(vector<vector<double>>& A) {
 	int n = sz(A); vi col(n);

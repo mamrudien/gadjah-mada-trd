@@ -9,7 +9,10 @@
  */
 #pragma once
 
+#include "template.h"
+
 const ll mod = 12345;
+
 ll det(vector<vector<ll>>& a) {
 	int n = sz(a); ll ans = 1;
 	rep(i,0,n) {

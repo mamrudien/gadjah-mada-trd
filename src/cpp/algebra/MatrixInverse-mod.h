@@ -11,7 +11,7 @@
  */
 #pragma once
 
-#include "../number-theory/ModPow.h"
+#include "nt/ModPow.h"
 
 int matInv(vector<vector<ll>>& A) {
 	int n = sz(A); vi col(n);
